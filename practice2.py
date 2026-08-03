@@ -1,0 +1,5 @@
+f=open("goal.txt","a")
+f.write("I've to finish with python by this week.\n")
+f.write("i want to become ai engineer in google.\ni want lead a life peacefully .")
+f.write("Completed!")
+f.close()
