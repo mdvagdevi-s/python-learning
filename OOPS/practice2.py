@@ -10,4 +10,4 @@ print("RAM is:",ob1.RAM)
 ob2=Laptop()
 ob2.brand="Lenova"
 print("Brand name is:",ob2.brand)
-print("Today's GitHub test")
+print("RAM is:",ob2.RAM)
