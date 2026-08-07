@@ -1,13 +1,14 @@
 from abc import ABC, abstractmethod
 
-class Vehicle:
+class Vehicle(ABC):
     @abstractmethod
     def start(self):
         pass
+    @abstractmethod
     def stop():
         pass
 
-class car:
+class car(Vehicle):
     def start(self):
         print("Car started")
 
