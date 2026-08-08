@@ -1,6 +1,10 @@
 class rectangle:
-    length=2
-    breadth=4
+    def __init__(self,length,breadth):
+        self.length=length
+        self.breadth=breadth
 
-area=rectangle()
-print("Area of rectangle is:",area.length*area.breadth)
+    def area(self):
+        return self.length*self.breadth
+
+r=rectangle(2,4)
+print(r.area())
