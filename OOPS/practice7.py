@@ -1,9 +1,14 @@
-class student:
-    name="Vagdevi"
-    age="20"
-    grade="A"
+class Student:
 
-display=student()
-print("Student name is:",display.name)
-print("Her age is:",display.age)
-print("Her grade is:",display.grade)
+    def __init__(self, name, age, grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+        print("Grade:", self.grade)
+
+s = Student("Vagdevi", 20, "A")
+s.display()
