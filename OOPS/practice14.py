@@ -5,7 +5,7 @@ class Vehicle(ABC):
     def start(self):
         pass
     @abstractmethod
-    def stop():
+    def stop(self):
         pass
 
 class car(Vehicle):
