@@ -1,12 +1,13 @@
-from abc import ABC ,abstractmethod
+
 class Dog:
-    @abstractmethod
+    
     def sound(self):
-        pass
+        print("Bark")
 
 class cat:
     def sound(self):
         print("Cat says meow")
-
+d=Dog()
 c=cat()
+d.sound()
 c.sound()
