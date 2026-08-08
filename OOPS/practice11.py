@@ -1,13 +1,18 @@
 class person:
-    def name(self):
-        print("My name is Vagdevi")
-class student(person):
-    def name(self):
-        print("My name is Vagdvei")
-    def roll_no(self):
-        print("My roll no: 4kv24cs159")
+    def __init__(self,name):
+        self.name=name
 
+    def display(self):
+        print(self.name)
 
-p=student()
-p.name()
-p.roll_no()
+class Student(person):
+    def __init__(self, name,roll):
+        super().__init__(name)
+        self.roll=roll
+    def details(self):
+        print("Roll:",self.roll)
+
+s=Student("Vagdevi","4KV24CS159")
+s.display()
+s.details()
+    
