@@ -1,29 +1,39 @@
 # 🐍 Python Learning Journey
 
-Welcome to my Python learning repository!
+Welcome to my Python Learning repository!
 
-I started this repository to document my daily Python learning and practice. I commit my work regularly to GitHub to maintain consistency and track my progress.
+This repository documents my Python learning journey through regular coding practice and GitHub commits. I use this repository to track my progress and improve my programming skills by consistently practicing Python concepts.
 
-## 📅 Learning Journey
+## 📚 What You'll Find in This Repository
 
-- ✅ Started learning: **File Handling**
-- ✅ Learned Object-Oriented Programming (OOP)
-- ✅ Practicing and committing my work to GitHub every day
+### ✅ Python Fundamentals
+Although my Python basics are not included in this repository, I have learned and practiced:
 
-## 📚 Topics Covered
+- Variables & Data Types
+- Operators
+- Conditional Statements
+- Loops
+- Functions
+- Strings
+- Lists
+- Tuples
+- Dictionaries
+- Sets
 
-### File Handling
+### 📂 Topics Available in This Repository
+
+#### 📄 File Handling
 - Reading files
 - Writing files
 - Appending data
 - File modes
 - File operations
 
-### Object-Oriented Programming (OOP)
-- Classes and Objects
+#### 🏛️ Object-Oriented Programming (OOP)
+- Classes & Objects
 - Constructors
-- Instance Variables
 - Methods
+- Instance Variables
 - Inheritance
 - Method Overriding
 - Polymorphism
@@ -31,33 +41,32 @@ I started this repository to document my daily Python learning and practice. I c
 - Abstraction
 - Static Methods
 
-## 📁 Repository Structure
+#### ⚠️ Exception Handling
+- try
+- except
+- else
+- finally
+- Custom Exceptions
 
-```
-python-learning/
-│
-├── OOPS/
-│   ├── class.py
-│   ├── inheritance.py
-│   ├── polymorphism.py
-│   ├── encapsulation.py
-│   ├── abstract.py
-│   └── ...
-│
-├── fileio.py
-├── prac1.py
-├── practice.py
-└── README.md
-```
+## 🚀 Upcoming Topics
 
-## 🎯 Goal
+I will continue updating this repository with:
 
-My goal is to build a strong foundation in Python and continue learning Data Structures & Algorithms, Machine Learning, and real-world projects.
+- Modules
+- Packages
+- Regular Expressions
+- Iterators & Generators
+- Decorators
+- File System Operations
+- More Python concepts
 
-## 📈 Progress
 
-✔️ File Handling Completed
 
-✔️ OOP Concepts Completed
+## 📅 Goal
 
-🔄 Continuing daily Python practice and GitHub commits.
+- Practice Python consistently.
+- Upload code regularly to GitHub.
+- Build a strong programming foundation.
+- Document my learning journey.
+
+⭐ Thank you for visiting my repository!
