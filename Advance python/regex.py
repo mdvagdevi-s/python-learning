@@ -41,3 +41,20 @@ print(u.group(2))
 g="I Like Python"
 v=re.search(r"Python|Java",g)
 print(v.group())
+
+h="Hello 123!"
+w=re.findall(r"[^a-zA-Z]",h)
+print(w)
+
+i="Contact me at vags@gmail.com"
+x=re.findall(r"\w+@\w+\.\w+",i)
+print(x)
+
+
+j= "Emails: abc@gmail.com, xyz123@yahoo.com"
+y = re.findall(r"\w+@\w+\.\w+", j)
+print(y)
+
+k= "Python,DSA;SQL|AI"
+z = re.split(r"[,;|]", k)
+print(z)
