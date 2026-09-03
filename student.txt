@@ -1,2 +1,1 @@
-I'm learning python from apna college.
-Getting bored sometimes.
+Hello Python
